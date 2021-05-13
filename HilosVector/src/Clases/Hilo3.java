@@ -31,7 +31,7 @@ public class Hilo3 extends Thread {
     
     public void run() {
         for (int i = 0; i < this.tam; i++) {
-            System.out.println(this.Vect + ": " + i);
+            System.out.println(this.Vect + ": " +Vector[i]);
             this.suma += Vector[i]; 
             this.sumaCuadrados += Vector[i] * Vector[i]; 
         }
